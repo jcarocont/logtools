@@ -1,6 +1,6 @@
-# logtools <img src="media/logtools_logo.png" align="right" height="139"/>
+# logtools <img src="media/logtools_logo.png" align="right" height="180"/>
 
-### *imagen del wati. siganlo en instagram: @wati.bakan*
+## *imagen del wati. siganlo en instagram: @wati.bakan*
 
 Captura stdout/stderr de procesos de compilación durante la instalación de paquetes R,
 incluyendo bloques ANTICONF de dependencias de sistema.
