@@ -1,0 +1,12 @@
+[package]
+name = "logtools"
+version = "0.0.0"
+title = "ayuda con el autoconf"
+description = "."
+license = "MIT"
+
+[authors]
+[[authors.person]]
+name = "jcarocont"
+email = "jcaro.cont@gmail.com"
+role = ["cre"]
