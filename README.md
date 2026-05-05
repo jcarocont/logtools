@@ -1,4 +1,4 @@
-# logtools <img src="media/logtools_logo.png" align="right" height="180"/>
+# logtools <img src="media/logtools_logo.png" align="right" height="200"/>
 
 ##### *imagen del wati. siganlo en instagram: @wati.bakan*
 
@@ -27,9 +27,9 @@ get_anticonf()
 
 ## ¿Por qué?
 
-En Linux, instalar paquetes R que requieren librerías de sistema falla con un bloque
-ANTICONF que indica exactamente qué instalar — pero se pierde en el scroll del log de
-compilación.
+En Linux, instalar ciertos paquetes R requiere ciertas librerías de sistema. Al no encontrarse, manda un fallo y uno ve un bloque
+ANTICONF que indica exactamente qué instalar — pero se pierde en el texto infinito del del log de
+compilación/instalacion.
 
 ![Ejemplo de bloque ANTICONF](media/anticonf-error.png)
 
@@ -44,8 +44,8 @@ Configuration failed to find the libv8 engine library. Try installing:
 ------------------------------------------------------------------------
 ```
 
-Con `logtools` ese bloque se captura y podés recuperarlo después con `get_anticonf()`,
-sin perderlo en el output de compilación.
+Con `logtools` ese bloque se captura y se puede recuperar después con `get_anticonf()`,
+sin perderlo en el texto infinito de compilación.
 
 ## Funciones disponibles
 
