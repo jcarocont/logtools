@@ -10,11 +10,9 @@ incluyendo bloques ANTICONF de dependencias de sistema.
 ```bash
 git clone https://github.com/jcaro.cont/logtools
 cd logtools
+R CMD INSTALL .
 ```
 
-```r
-devtools::install(".")
-```
 
 ## Uso
 
